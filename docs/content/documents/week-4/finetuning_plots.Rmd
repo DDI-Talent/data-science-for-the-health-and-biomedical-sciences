@@ -429,6 +429,3 @@ p57 + p77 + p87 + p07 +
 Note `patchwork` uses the same operators that R does (e.g., `+` or `/` or `|`). For more details on plot assembly options [check out this webpage](https://patchwork.data-imaginist.com/articles/guides/assembly.html) 
 
 For even more control over layouts beyond `+`, `/`, and `|`, look at [this webpage](https://patchwork.data-imaginist.com/articles/guides/layout.html)
-
-
-

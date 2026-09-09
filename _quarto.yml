@@ -1,13 +1,15 @@
 project:
   type: website
   output-dir: "./docs"
-  #post-render:
-    #- encrypt.R
   resources:
     - content/documents/**/*
+    - "!tutorials/**"
+    - "!scripts/**"
+    - "!README.md"
   render:
-    - "*.qmd"
-    - "!tutorials/" # Exclude the entire 'tutorials' folder from rendering
+    - index.qmd
+    - content/**/*.qmd
+    - course-information/*.qmd
   preview:
     port: 5133
 
@@ -18,7 +20,7 @@ execute:
 website:
   title: "Data Science for Health and Biomedical Sciences"
   description: "The course aims to provide a broad introduction to data science in health and biomedical sciences, covering key concepts and principles, data analysis skills and implications of working with biomedical and healthcare data."
-  site-url: "https://ddi-talent.github.io/website-ug-data-science/"
+  site-url: "https://ddi-talent.github.io/data-science-for-the-health-and-biomedical-sciences/"
   favicon: "/favicon.png"
   navbar:
     pinned: true
@@ -57,10 +59,6 @@ website:
               file: content/week-1/topic-6.qmd
             - text: "Further Optional Resources"
               file: content/week-1/further-resources.qmd
-            - text: "Week 1 Tutorial materials"
-              file: content/week-1/tutorial_week1.qmd
-            #- text: "Tutorial materials" #Did not remove the tutorials in case we want them back later
-            #  file: content/week-1/tutorial.qmd
               
         - section: "Week 2: Data Tidying and Wrangling"
           contents:
@@ -75,10 +73,6 @@ website:
               file: content/week-2/topic-4.qmd
             - text: "Topic 5: Files and Folders"
               file: content/week-2/topic-5.qmd
-            - text: "Week 2 Tutorial materials"
-              file: content/week-2/tutorial_week2.qmd
-            #- text: "Tutorial materials"
-            #  file: content/week-2/tutorial.qmd
           
         - section: "Week 3: Data Visualisation and Storytelling"
           contents:
@@ -97,8 +91,6 @@ website:
               file: content/week-3/topic-6.qmd
             - text: "Topic 7: Introduction to GitHub"
               file: content/week-3/topic-7.qmd
-            - text: "Week 3 Tutorial materials"
-              file: content/week-3/tutorial_week3.qmd
             
         - section: "Week 4: Analysing and Presenting Data in R"
           contents:
@@ -143,8 +135,6 @@ website:
               file: content/week-7/topic-3.qmd
             #- text: "TBC: Optional: NHS R - modelling hospital flow"
             #  file: content/week-7/optional-nhs-r-modelling.qmd
-            - text: "Week 7 Tutorial materials"
-              file: content/week-7/tutorial_week7.qmd
           
         - section: "Week 8: Data and Identity"
           contents:
@@ -174,25 +164,6 @@ website:
             - text: "Topic 4:GWAS Resources"
               file: content/week-10/topic-4.qmd
         
-    - title: "Assessment"
-      contents:
-        - section: "Overview"
-          contents:
-            - assessment/index.qmd
-        - section: "ICA1 - R Programming Assignment"
-          contents:
-            - text: "Formative assessment"
-              file: assessment/formative-assessment.qmd
-            - text: "Assessment Brief and Rubric"
-              file: assessment/assessment-brief-and-rubric.qmd
-        - section: "ICA2 - Essay"
-          contents:
-            - text: "Assessment and Submission Details"
-              file: assessment/assessment-and-submission-details.qmd
-            - text: "ICA Cover Sheet"
-              file: assessment/ica2-cover-sheet.qmd
-              
-     
 format:
   html:
     theme: 

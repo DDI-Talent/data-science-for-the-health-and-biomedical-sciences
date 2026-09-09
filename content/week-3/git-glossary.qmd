@@ -18,7 +18,7 @@ You do this by clicking on the yellow __untracked__ boxes in the Git pane.
 
 __Clone__  
 A copy of, or the process of copying, a __remote__ __repository__ stored locally on your machine.
-Example: `git clone https://github.com/user/ds-week-03-tutorial`.
+Example: `git clone https://github.com/user/data-science-project`.
 
 __Commit__  
 A snapshot of your project at a specific point in time.

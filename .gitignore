@@ -7,3 +7,5 @@ encrypt.R
 _site/
 karim*
 .DS_Store
+
+**/*.quarto_ipynb

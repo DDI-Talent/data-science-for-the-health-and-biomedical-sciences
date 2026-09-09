@@ -3,7 +3,7 @@ title: "Overview"
 format: html
 ---
 
-Welcome to Week 2 of the course! This week we will delve into working with data in R, from importing data to tidying and wrangling. You will have the opportunity to practice the concepts you learn in the live sessions on Thursday and Friday.
+Welcome to Week 2 of the course! This week we will delve into working with data in R, from importing data to tidying and wrangling.
 
 ## Learning Outcomes
 

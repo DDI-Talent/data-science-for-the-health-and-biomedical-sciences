@@ -36,9 +36,9 @@ The following guide will walk you through the process of setting up a repo on Gi
 
 The only prerequisite for this is that you have already signed up for a Github account. If you have not already created one, do so now <https://github.com/signup>.
 
-GitHub is an on-line platform for storing code or other text based projects, in **repositories** (repos). Each week you will create a new repository for your work in the tutorials. We will go through the process of setting up a repo step by step.
+GitHub is an on-line platform for storing code or other text based projects, in **repositories** (repos). You can create a repository for each project. We will go through the process of setting up a repo step by step.
 
-This is the process you should follow **every week** in your pair programming tutorials. Choose one person who will do this, on their own computer, and work through the steps together. Only do this on **that one person's computer**. Don't worry, all members of the team will get all work at the end, and all individuals will get a chance to do these steps on their own computer in future weeks.
+When working in pairs, use the following process to set up a shared project. Choose one person who will do this, on their own computer, and work through the steps together. Only do this on **that one person's computer**. Don't worry, all members of the team will get all work at the end, and all individuals will get a chance to do these steps on their own computer in future projects.
 
 Git has a whole vocabulary of its own. There is a glossary available that you can have open as you work through these notes [Git glossary](git-glossary.html)
 
@@ -62,7 +62,7 @@ This will take you to the repo initialization page.
 You can ignore the "template" section. If you are a keen bean, you can explore this later. It will allow you to create a template repo for all future weeks based on this week's repo. But we will not go over it here.
 
 -   Give your repo a **meaningful** name.
-    -   `tutorial-repo` sounds good, right? 🤨...?
+    -   `project-repo` sounds good, right? 🤨...?
 
 ![Naming your repo. Don't forget to give a description.](images/week03-topic07-03_gh_name-repo.png){#fig-name-repo}
 
@@ -103,7 +103,7 @@ Decide on a good place to save all your course resources. It is up to you where 
 
 See @fig-dir-str at the end for a suggested set-up. You can create a new directory (folder) using whichever file manager you like, e.g. Windows Explorer, Mac Finder, terminal, etc.
 
--   Here I created folder in `Documents` called `data-science-tutorials`.
+-   Here I created folder in `Documents` called `data-science-projects`.
 -   I then right-clicked inside the folder in Windows explorer and clicked `Open in terminal`...
 -   ...and pasted the web URL copied from GitHub
 
@@ -268,4 +268,4 @@ Now we have our own copy on our own Github account, to get our own copy of this 
 
 Here is a suggested directory structure to think about. You do not have to do this, but it is clear, simple, and easy to compare with your team mates.
 
-![A possible setup for your work, and the workflow for a pair-programming session.](images/week03-topic07-tutorial-repo-setup.png){#fig-dir-str}
+![A possible setup for your work, and the workflow for a pair-programming session.](images/week03-topic07-project-repo-setup.png){#fig-dir-str}

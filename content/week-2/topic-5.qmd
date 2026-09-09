@@ -33,7 +33,7 @@ Using a dedicated local project folder (e.g., in `Documents` or a separate `Proj
 
 For the following, imagine we have a project that looks like this
 
-![Possible directory structure. In this example, each tutorial is placed in its own directory. And all tutorials are contained in a data science tutorials directory. And that lives sensible in the Documents folder (not on the Desktop).](images/week02-topic05-ug-dir-str-small.png){#fig-dir-str fig-align="left"}
+![Possible directory structure. In this example, each project is placed in its own directory. And all projects are contained in a data science projects directory. And that lives sensible in the Documents folder (not on the Desktop).](images/week02-topic05-ug-dir-str-small.png){#fig-dir-str fig-align="left"}
 
 ## File paths
 
@@ -60,11 +60,11 @@ An **absolute path** is "absolute" in the sense that it points to a completely u
 
 Suppose you have an analysis script that lives in the analysis dir as seen in @fig-dir-str. Then the absolute path to that script might be
 
-`C:/Users/your-name/Documents/ds-tutorials/week-01/analysis/analysis.R`
+`C:/Users/your-name/Documents/ds-projects/week-01/analysis/analysis.R`
 
 And this script uses a file called `data.csv`. If a path starts at the root, then the rest of the path will look something like
 
-`C:/Users/your-name/Documents/ds-tutorials/data/data.csv`
+`C:/Users/your-name/Documents/ds-projects/data/data.csv`
 
 Note that the paths contain `your-name`. If you choose to only ever work with people with the same name as you, probably not a problem. But if you share your project will anyone else...
 
@@ -108,7 +108,7 @@ If you use RStudio projects, RStudio will place a file called `project-name.Rpro
 
 Using the `here` package basically "short cuts" the absolute path, based on the `.Rproj` file Instead of typing
 
-`C:/your-name/Documents/ds-tutorials/week-01/.../...`
+`C:/your-name/Documents/ds-projects/week-01/.../...`
 
 we can construct our paths starting from `week-01`, for example `here::here('data', 'care-home-data.R')`. Notice the use of `::`.
 

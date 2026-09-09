@@ -30,9 +30,16 @@ jobs:
             any::knitr
             any::quarto
             
-      - name: Render and Publish
+      - name: Render website
+        run: quarto render
+
+      - name: Check website publication boundaries
+        run: python3 scripts/check-site.py
+
+      - name: Publish validated website
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

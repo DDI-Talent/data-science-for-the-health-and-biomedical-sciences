@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.35">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Relative Directories for Better Project Organization – Data Science for Health and Biomedical Sciences</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -71,10 +74,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c8db1e2376186e53c21d3da13e85f734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f2d96611c7a160ef1521ea860f264c32.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -228,12 +231,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Further Optional Resources</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/week-1/tutorial_week1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 1 Tutorial materials</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -279,12 +276,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../../content/week-2/topic-5.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Topic 5: Files and Folders</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/week-2/tutorial_week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 2 Tutorial materials</span></a>
   </div>
 </li>
       </ul>
@@ -344,12 +335,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../../content/week-3/topic-7.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Topic 7: Introduction to GitHub</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/week-3/tutorial_week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 3 Tutorial materials</span></a>
   </div>
 </li>
       </ul>
@@ -496,12 +481,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="sidebar-item-container"> 
   <a href="../../content/week-7/topic-3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Topic 3: Improving Healthcare Processes</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/week-7/optional-nhs-r-modelling.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">TBC: Optional: NHS R - modelling hospital flow</span></a>
   </div>
 </li>
       </ul>
@@ -670,7 +649,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <img src="images/week02-topic05-ug-dir-str-small.png" class="img-fluid quarto-figure quarto-figure-left figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dir-str-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Possible directory structure. In this example, each tutorial is placed in its own directory. And all tutorials are contained in a data science tutorials directory. And that lives sensible in the Documents folder (not on the Desktop).
+Figure&nbsp;1: Possible directory structure. In this example, each project is placed in its own directory. And all projects are contained in a data science projects directory. And that lives sensible in the Documents folder (not on the Desktop).
 </figcaption>
 </figure>
 </div>
@@ -686,12 +665,12 @@ Figure&nbsp;1: Possible directory structure. In this example, each tutorial is p
 </ul>
 <p>For the purposes of this document, any time we are considering a directory, I will try and suffix it with a <code>/</code> to distinguish it from files, which I will always try to ensure end with a dot followed by three or four letters, e.g.&nbsp;<code>file.txt</code>, <code>file .docx</code>, etc.</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Technicality
+<span class="screen-reader-only">Note</span>Technicality
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -706,9 +685,9 @@ Technicality
 <h3 class="anchored" data-anchor-id="absolute-paths">Absolute paths</h3>
 <p>An <strong>absolute path</strong> is “absolute” in the sense that it points to a completely unique and unambiguous location - which seems like it should be a good thing, right?. They usually start with something like <code>C:\</code> on Windows or <code>/Users/</code> on Mac - i.e the root folder of your disk.</p>
 <p>Suppose you have an analysis script that lives in the analysis dir as seen in <a href="#fig-dir-str" class="quarto-xref">Figure&nbsp;1</a>. Then the absolute path to that script might be</p>
-<p><code>C:/Users/your-name/Documents/ds-tutorials/week-01/analysis/analysis.R</code></p>
+<p><code>C:/Users/your-name/Documents/ds-projects/week-01/analysis/analysis.R</code></p>
 <p>And this script uses a file called <code>data.csv</code>. If a path starts at the root, then the rest of the path will look something like</p>
-<p><code>C:/Users/your-name/Documents/ds-tutorials/data/data.csv</code></p>
+<p><code>C:/Users/your-name/Documents/ds-projects/data/data.csv</code></p>
 <p>Note that the paths contain <code>your-name</code>. If you choose to only ever work with people with the same name as you, probably not a problem. But if you share your project will anyone else…</p>
 <ul>
 <li>That path is only guaranteed to work on <strong>your specific</strong> computer.</li>
@@ -737,12 +716,12 @@ Technicality
 <p>What if we could decide which dir was considered the “<strong>root</strong>” dir? So, instead of going all the way back to <code>C:</code>, we told R to consider the start of the <strong>current project</strong> to be the root directory?</p>
 <p>If you use RStudio projects, RStudio will place a file called <code>project-name.Rproj</code> inside the project’s top level directory. In our current case, the top level dir is `week-01 (<a href="#fig-rproj" class="quarto-xref">Figure&nbsp;2</a>)</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Directory structure using <code>Rproj</code> file
+<span class="screen-reader-only">Note</span>Directory structure using <code>Rproj</code> file
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -762,7 +741,7 @@ Figure&nbsp;2: The <code>Rproj</code> file, placed in the project root, is used 
 </div>
 </div>
 <p>Using the <code>here</code> package basically “short cuts” the absolute path, based on the <code>.Rproj</code> file Instead of typing</p>
-<p><code>C:/your-name/Documents/ds-tutorials/week-01/.../...</code></p>
+<p><code>C:/your-name/Documents/ds-projects/week-01/.../...</code></p>
 <p>we can construct our paths starting from <code>week-01</code>, for example <code>here::here('data', 'care-home-data.R')</code>. Notice the use of <code>::</code>.</p>
 <p>This means we can use the <code>here</code> function from within the <code>here</code> package, without having to attach the package to our R environment (i.e.&nbsp;no need for <code>library(here)</code>)</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
@@ -771,20 +750,20 @@ Figure&nbsp;2: The <code>Rproj</code> file, placed in the project root, is used 
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise
+<span class="screen-reader-only">Note</span>Exercise
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <p>In one of your own R projects, run the following code:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># either supply dirs individually</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># either supply dirs individually</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>data_path <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">'path/to'</span>, <span class="st">'file'</span>, <span class="st">'data.csv'</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># or as a single string</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>data_path <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">'path/to/file/data.csv'</span>)</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>data_path</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>data_path</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>Question:</strong></p>
 <p>What do you notice about the path returned?<br>
 Is it an absolute path or a relative path?</p>
@@ -849,13 +828,14 @@ Is it an absolute path or a relative path?</p>
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -870,7 +850,7 @@ Is it an absolute path or a relative path?</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ddi-talent\.github\.io\/website-ug-data-science\/");
+        var filterRegex = new RegExp("https:\/\/ddi-talent\.github\.io\/data-science-for-the-health-and-biomedical-sciences\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

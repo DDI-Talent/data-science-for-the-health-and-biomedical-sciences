@@ -9,14 +9,11 @@ format: html
 
 **SCQF Credits:** 20
 
-**Link to course on DRPS: <http://www.drps.ed.ac.uk/24-25/dpt/cxbime10076.htm>**
-
-##### **Course Handbook**
-**Data Science 2024-25 Handbook_FINAL.docx**
+For the current course handbook, assessment requirements and course catalogue entry, consult the course area on Learn.
 
 #### **Course Outline**
 
-The course aims to provide a broad introduction to data science in health and biomedical sciences, covering key concepts and principles, data analysis skills and implications of working with biomedical and healthcare data. Key topics in the course include: types of human health data; computational methods (e.g. process modelling and machine learning); data wrangling, analysis and reporting using the R programming language; legal considerations and bias in health data. This course is delivered in a flipped classroom format: it is based around short pre-recorded videos, which are complemented with readings and self-guided programming tasks. The students also have a weekly in-person tutorial, which provides an opportunity for further improvement of their programming practice and discussion of the core concepts. We will also offer weekly quizzes to provide the students with valuable formative feedback.
+The course aims to provide a broad introduction to data science in health and biomedical sciences, covering key concepts and principles, data analysis skills and implications of working with biomedical and healthcare data. Key topics in the course include: types of human health data; computational methods (e.g. process modelling and machine learning); data wrangling, analysis and reporting using the R programming language; legal considerations and bias in health data. This course is delivered in a flipped classroom format: it is based around short pre-recorded videos, which are complemented with readings and self-guided programming tasks.
 
 **Learning Outcomes**
 
@@ -55,7 +52,3 @@ You can find class times for this course via your University of Edinburgh calend
 This is general information that applied to all BMTO courses.
 
 <https://www.ed.ac.uk/biomedical-sciences/bmto/bmto-undergraduate-students/academic-guidance-and-support/academic-guidance/student-guide/biomedical-sciences-undergraduate-student-handbook>
-
-**Course Handbook**
-
-You can find the course handbook here (PDF and docx versions) -\> <https://github.com/DDI-Students/data-science-for-health-bms-24-25/blob/main/documents/>. To download it, click "Download raw file" at the top right.

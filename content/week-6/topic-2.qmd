@@ -13,12 +13,12 @@ Watch the following 3 videos to learn about examples of natural language data in
 
 [Introduction to Clinical Text](https://media.ed.ac.uk/media/1_ontbog3b)
 
-[Transcript](../documents/week-6/Introduction_to_Clinical_Text.docx)
+[Transcript](/content/documents/week-6/Introduction_to_Clinical_Text.docx)
 
 [Natural Language Processing Tasks](https://media.ed.ac.uk/media/1_g6xre2mi)
 
-[Transcript](../documents/week-6/Natural_Language_Processing_Tasks.docx)
+[Transcript](/content/documents/week-6/Natural_Language_Processing_Tasks.docx)
 
 [Methods for Analysing Clinical Text](https://media.ed.ac.uk/media/1_fpyoqqki)
 
-[Transcript](../documents/week-6/Methods_for_Analysing_Clinical_Text.docx)
+[Transcript](/content/documents/week-6/Methods_for_Analysing_Clinical_Text.docx)
