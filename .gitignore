@@ -4,8 +4,15 @@
 .Ruserdata
 encrypt.R
 /.quarto/
-_site/
+/_site/
 karim*
 .DS_Store
 
 **/*.quarto_ipynb
+
+# Generated tutorial previews (keep .qmd and .Rmd source files).
+/tutorials/week-1/quiz.html
+/tutorials/week-1/quiz_files/
+
+# Legacy generated output; the build now uses _site/.
+/docs/

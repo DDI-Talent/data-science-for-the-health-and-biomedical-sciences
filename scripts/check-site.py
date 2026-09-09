@@ -4,7 +4,7 @@ import re
 import sys
 from urllib.parse import urlsplit
 
-site = Path('docs')
+site = Path('_site')
 errors = []
 if not (site / 'index.html').exists():
     errors.append('Render the site before running this check.')
@@ -22,6 +22,14 @@ for path in site.rglob('*'):
                 errors.append(f'Tutorial link: {relative}')
         if re.search(r'website-ug-data-science|Autumn 2025|STUDENT-2526|data-science-for-health-bms-24-25|24-25/dpt|2024-25 Handbook|Thursday and Friday', text):
             errors.append(f'Cohort-specific content: {relative}')
+# These are retained as supporting source files, not published downloads.
+for resource in (
+    'content/documents/week-2/phs_cancelled_tidy.Rda',
+    'content/documents/week-3/Be_fruitful_and_multiply.pdf',
+    'content/documents/week-4/Combined_example.Rmd',
+):
+    if (site / resource).exists():
+        errors.append(f'Unlinked supporting source published: {resource}')
 for week in range(1, 11):
     if not Path(f'tutorials/week-{week}/README.md').exists():
         errors.append(f'Missing tutorial workspace for week {week}')

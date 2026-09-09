@@ -24,74 +24,13 @@ Here are the functions we'll be covering in the the videos:
 
 Watch the following video to find out how to import CSV files using R code and also using the import wizard, with some extra tips to help you deal with dates.
 
-If you want to recreate the session in the video on your own computer, you can download the **cancelled_operations** project folder here: [cancelled_operations.zip](/documents/week-2/cancelled_operations.zip) *Note: To open the project, make sure to "unzip" or "extract all" from the folder, before clicking on the cancelled_operations.Rproj file to open the project in RStudio.*
+If you want to recreate the session in the video on your own computer, you can download the **cancelled_operations** project folder here: [cancelled_operations.zip](/content/documents/week-2/cancelled_operations.zip) *Note: To open the project, make sure to "unzip" or "extract all" from the folder, before clicking on the cancelled_operations.Rproj file to open the project in RStudio.*
 
-*Alternatively, here are the individual files, but to recreate the file structure, you will need to create your own RStudio project and within this a "data" folder to store examples 2, 3 and 4 in, for the examples to work:*
-
-```{r}
-#| echo: false
-library(downloadthis)
-
-download_link(
-  link = "./files/phs_cancelled1.csv",
-  button_label = "phs_cancelled1.csv",
-  button_type = "danger",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = FALSE
-)
-```
-
-------------------------------------------------------------------------
-
-```{r}
-#| echo: false
-
-download_link(
-  link = "/documents/week-2/phs_cancelled2.csv",
-  button_label = "phs_cancelled2.csv",
-  button_type = "danger",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = FALSE
-)
-```
-
-------------------------------------------------------------------------
-
-```{r}
-#| echo: false
-
-download_link(
-  link = "/documents/week-2/phs_cancelled3.csv",
-  button_label = "phs_cancelled3.csv",
-  button_type = "danger",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = FALSE
-)
-```
-
-------------------------------------------------------------------------
-
-```{r}
-#| echo: false
-
-download_link(
-  link = "/documents/week-2/phs_cancelled4.csv",
-  button_label = "phs_cancelled4.csv",
-  button_type = "danger",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = FALSE
-)
-```
-
-------------------------------------------------------------------------
+For the CSV examples, download [phs_cancelled1.csv](/content/documents/week-2/phs_cancelled1.csv). The examples use the same dataset. To recreate the file structure, create your own RStudio project and save the file in a `data` folder.
 
 [![](images/week02-topic02-health-data-science-import-csv-files.png){fig-alt="How to import CSV files"}](https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_ntwi93hq&flashvars%5BstreamerType%5D=auto&flashvars%5BlocalizationCode%5D=en&flashvars%5BleadWithHTML5%5D=true&flashvars%5BsideBarContainer.plugin%5D=true&flashvars%5BsideBarContainer.position%5D=left&flashvars%5BsideBarContainer.clickToClose%5D=true&flashvars%5Bchapters.plugin%5D=true&flashvars%5Bchapters.layout%5D=vertical&flashvars%5Bchapters.thumbnailRotator%5D=false&flashvars%5BstreamSelector.plugin%5D=true&flashvars%5BEmbedPlayer.SpinnerTarget%5D=videoHolder&flashvars%5BdualScreen.plugin%5D=true&flashvars%5BKaltura.addCrossoriginToIframe%5D=true&&wid=0_bb2s1o4d)
 
-Download the video transcript link [here](/documents/week-2/Importing%20CSV%20Files.docx).
+Download the video transcript link [here](/content/documents/week-2/Importing%20CSV%20Files.docx).
 
 ### Uncommon File Formats
 
@@ -103,13 +42,13 @@ The example CSV file we are using is in the common format where values are separ
 
 Watch the following video to find out how to import Excel files using R code and also using the import wizard.
 
-If you want to recreate the session in the video on your own computer, you can download the **cancelled_operations** project folder here: [cancelled_operations_excel.zip](/documents/week-2/cancelled_operations_excel.zip) *Note: To open the project, make sure to "unzip" or "extract all" from the folder, before clicking on the cancelled_operations.Rproj file to open the project in RStudio.*
+If you want to recreate the session in the video on your own computer, you can download the **cancelled_operations** project folder here: [cancelled_operations.zip](/content/documents/week-2/cancelled_operations.zip) *Note: To open the project, make sure to "unzip" or "extract all" from the folder, before clicking on the cancelled_operations.Rproj file to open the project in RStudio.*
 
-*Alternatively, here is the individual file, but to recreate the file structure, you will need to create your own RStudio project and within this a "data" folder to store the file for it to work [phs_cancelled.xlsx](/documents/week-2/phs_cancelled.xlsx)*
+*Alternatively, here is the individual file, but to recreate the file structure, you will need to create your own RStudio project and within this a "data" folder to store the file for it to work [phs_cancelled.xlsx](/content/documents/week-2/phs_cancelled.xlsx)*
 
 [![](images/week02-topic02-health-data-science-import-excel-files.png){fig-alt="Import excel files video"}](https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=0_7k3z7x1a&flashvars%5BstreamerType%5D=auto&flashvars%5BlocalizationCode%5D=en&flashvars%5BleadWithHTML5%5D=true&flashvars%5BsideBarContainer.plugin%5D=true&flashvars%5BsideBarContainer.position%5D=left&flashvars%5BsideBarContainer.clickToClose%5D=true&flashvars%5Bchapters.plugin%5D=true&flashvars%5Bchapters.layout%5D=vertical&flashvars%5Bchapters.thumbnailRotator%5D=false&flashvars%5BstreamSelector.plugin%5D=true&flashvars%5BEmbedPlayer.SpinnerTarget%5D=videoHolder&flashvars%5BdualScreen.plugin%5D=true&flashvars%5BKaltura.addCrossoriginToIframe%5D=true&&wid=0_6ew6t4t1)
 
-Download the video transcript link [here](/documents/week-2/Importing%20Excel%20files.docx).
+Download the video transcript link [here](/content/documents/week-2/Importing%20Excel%20files.docx).
 
 *Note: the readxl package was developed fairly recently so if you are searching on the internet to find solutions to problems reading in Excel files, make sure to include the package name, or limit the time range.*
 

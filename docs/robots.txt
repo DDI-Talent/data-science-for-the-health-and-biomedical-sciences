@@ -1,1 +1,0 @@
-Sitemap: https://ddi-talent.github.io/data-science-for-the-health-and-biomedical-sciences/sitemap.xml

@@ -1,8 +1,12 @@
 project:
   type: website
-  output-dir: "./docs"
+  output-dir: "_site"
   resources:
     - content/documents/**/*
+    # Retained supporting sources with no website links.
+    - "!content/documents/week-2/phs_cancelled_tidy.Rda"
+    - "!content/documents/week-3/Be_fruitful_and_multiply.pdf"
+    - "!content/documents/week-4/Combined_example.Rmd"
     - "!tutorials/**"
     - "!scripts/**"
     - "!README.md"
@@ -133,8 +137,6 @@ website:
               file: content/week-7/topic-2.qmd
             - text: "Topic 3: Improving Healthcare Processes"
               file: content/week-7/topic-3.qmd
-            #- text: "TBC: Optional: NHS R - modelling hospital flow"
-            #  file: content/week-7/optional-nhs-r-modelling.qmd
           
         - section: "Week 8: Data and Identity"
           contents:
