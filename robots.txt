@@ -1,1 +1,1 @@
-Sitemap: https://ddi-talent.github.io/website-ug-data-science/sitemap.xml
+Sitemap: https://ddi-talent.github.io/data-science-for-the-health-and-biomedical-sciences/sitemap.xml

@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Topic 7: Introduction to using Git and GitHub with RStudio – Data Science for Health and Biomedical Sciences</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -32,15 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../..//favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9df1d615f3b8197c8fb6b61dcd9e97f3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-08e5b1c3d0923fc81dc3a667e4f7083d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -194,12 +199,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Further Optional Resources</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/week-1/tutorial_week1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 1 Tutorial materials</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -245,12 +244,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/week-2/topic-5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Topic 5: Files and Folders</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/week-2/tutorial_week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 2 Tutorial materials</span></a>
   </div>
 </li>
       </ul>
@@ -310,12 +303,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/week-3/topic-7.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Topic 7: Introduction to GitHub</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/week-3/tutorial_week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 3 Tutorial materials</span></a>
   </div>
 </li>
       </ul>
@@ -462,12 +449,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/week-7/topic-3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Topic 3: Improving Healthcare Processes</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/week-7/tutorial_week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 7 Tutorial materials</span></a>
   </div>
 </li>
       </ul>
@@ -650,8 +631,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="1.3" class="anchored" data-anchor-id="using-git-and-github"><span class="header-section-number">1.3</span> Using Git and GitHub</h3>
 <p>The following guide will walk you through the process of setting up a repo on GitHub.</p>
 <p>The only prerequisite for this is that you have already signed up for a Github account. If you have not already created one, do so now <a href="https://github.com/signup" class="uri">https://github.com/signup</a>.</p>
-<p>GitHub is an on-line platform for storing code or other text based projects, in <strong>repositories</strong> (repos). Each week you will create a new repository for your work in the tutorials. We will go through the process of setting up a repo step by step.</p>
-<p>This is the process you should follow <strong>every week</strong> in your pair programming tutorials. Choose one person who will do this, on their own computer, and work through the steps together. Only do this on <strong>that one person’s computer</strong>. Don’t worry, all members of the team will get all work at the end, and all individuals will get a chance to do these steps on their own computer in future weeks.</p>
+<p>GitHub is an on-line platform for storing code or other text based projects, in <strong>repositories</strong> (repos). You can create a repository for each project. We will go through the process of setting up a repo step by step.</p>
+<p>When working in pairs, use the following process to set up a shared project. Choose one person who will do this, on their own computer, and work through the steps together. Only do this on <strong>that one person’s computer</strong>. Don’t worry, all members of the team will get all work at the end, and all individuals will get a chance to do these steps on their own computer in future projects.</p>
 <p>Git has a whole vocabulary of its own. There is a glossary available that you can have open as you work through these notes <a href="git-glossary.html">Git glossary</a></p>
 </section>
 </section>
@@ -694,7 +675,7 @@ Figure&nbsp;2: Click “New” to begin creating a repo
 <ul>
 <li>Give your repo a <strong>meaningful</strong> name.
 <ul>
-<li><code>tutorial-repo</code> sounds good, right? 🤨…?</li>
+<li><code>project-repo</code> sounds good, right? 🤨…?</li>
 </ul></li>
 </ul>
 <div id="fig-name-repo" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -776,7 +757,7 @@ Figure&nbsp;6: Copy the repo URL after clicking the “Code” button.
 </ul>
 <p>See <a href="#fig-dir-str" class="quarto-xref">Figure&nbsp;23</a> at the end for a suggested set-up. You can create a new directory (folder) using whichever file manager you like, e.g.&nbsp;Windows Explorer, Mac Finder, terminal, etc.</p>
 <ul>
-<li>Here I created folder in <code>Documents</code> called <code>data-science-tutorials</code>.</li>
+<li>Here I created folder in <code>Documents</code> called <code>data-science-projects</code>.</li>
 <li>I then right-clicked inside the folder in Windows explorer and clicked <code>Open in terminal</code>…</li>
 <li>…and pasted the web URL copied from GitHub</li>
 </ul>
@@ -1089,7 +1070,7 @@ Figure&nbsp;22: Green “create fork button”. Click it!
 <div id="fig-dir-str" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-dir-str-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/week03-topic07-tutorial-repo-setup.png" class="img-fluid figure-img">
+<img src="images/week03-topic07-project-repo-setup.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-dir-str-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;23: A possible setup for your work, and the workflow for a pair-programming session.
@@ -1174,7 +1155,7 @@ Figure&nbsp;23: A possible setup for your work, and the workflow for a pair-prog
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ddi-talent\.github\.io\/website-ug-data-science\/");
+        var filterRegex = new RegExp("https:\/\/ddi-talent\.github\.io\/data-science-for-the-health-and-biomedical-sciences\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
