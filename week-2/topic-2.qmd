@@ -82,7 +82,7 @@ Let's look at how we can import data from the web directly from inside RStudio.
 
 The open data we're going to import is one you'll be very familiar with by now, from the Public Health Scotland website. It can be found at the following link:
 
-[www.opendata.nhs.scot/dataset/cancelled-planned-operations](www.opendata.nhs.scot/dataset/cancelled-planned-operations)
+[www.opendata.nhs.scot/dataset/cancelled-planned-operations](https://www.opendata.nhs.scot/dataset/cancelled-planned-operations)
 
 As you can see from the screenshot below, the CSV files can be manually downloaded from the website.
 

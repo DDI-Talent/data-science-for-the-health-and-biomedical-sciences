@@ -81,8 +81,8 @@ Once the SNPs are selected, the GWAS signals can be integrated with other bioinf
 
 ## Reading list
 
-1.  [A tutorial on statistical methods for population association studies](files/Balding_Association_studies_tutorial_Nature_Reviews_Genetics_2008.pdf)
+1.  [A tutorial on statistical methods for population association studies](../documents/week-10/Balding_Association_studies_tutorial_Nature_Reviews_Genetics_2008.pdf)
 
-2.  [Gene–environment correlations across geographic regions affect genome-wide association studies](files/Gene–environment_correlations_across_geographic_regions_affect_genome-wide_association_studies.pdf)
+2.  [Gene–environment correlations across geographic regions affect genome-wide association studies](../documents/week-10/Gene–environment_correlations_across_geographic_regions_affect_genome-wide_association_studies.pdf)
 
-3.  [Genome-wide association studies](files/Primer_Genome-wide_association_studies.pdf)
+3.  [Genome-wide association studies](../documents/week-10/Primer_Genome-wide_association_studies.pdf)

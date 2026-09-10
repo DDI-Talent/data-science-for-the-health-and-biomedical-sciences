@@ -113,4 +113,4 @@ Other useful resources include
 
 ## Suggested Read: GWAS Paper
 
-[Let’s call it the effect allele: a suggestion for GWAS naming conventions](files/Let’s_call_it_the%20effect%20allele_a_suggestion_for_GWAS_naming_conventions.pdf)
+[Let’s call it the effect allele: a suggestion for GWAS naming conventions](../documents/week-10/Let’s_call_it_the%20effect%20allele_a_suggestion_for_GWAS_naming_conventions.pdf)

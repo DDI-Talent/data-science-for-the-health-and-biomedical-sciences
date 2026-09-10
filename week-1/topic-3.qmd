@@ -169,7 +169,7 @@ You can find further examples of the [arithmetic/mathematical operators](#0) in 
 
 As well as performing calculations with arithmetic operators, you can also *ask* R things, such as is "2 greater than 10?". In such cases, as you are asking R a questions, the output returned (or answer) is **TRUE** or **FALSE**. Another set of operators you will use frequently in R are relational operators, which are great for **comparing values** and for creating subgroups in your data or excluding outliers.
 
-*Note: You can find a full list of the operators we use on the [HealthyR Quick-start cheatsheet](https://www.dropbox.com/s/6vsgy5o3d6z1h5k/healthyr_quickstart_sheet.pdf?dl=0), also listed in [Further Resources](/week-1/further-resources)) for this week.*
+*Note: You can find a full list of the operators we use on the [HealthyR Quick-start cheatsheet](https://www.dropbox.com/s/6vsgy5o3d6z1h5k/healthyr_quickstart_sheet.pdf?dl=0), also listed in [Further Resources](/week-1/further-resources.qmd)) for this week.*
 
 These operators allow us to ask questions about our data. For example, are values in a column greater than, less than or equal to a reference value?
 

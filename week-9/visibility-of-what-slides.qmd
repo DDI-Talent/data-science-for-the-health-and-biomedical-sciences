@@ -3,4 +3,4 @@ title: "Visibility of what? slides"
 format: html
 ---
 
-Read here the [guest lecture slides](files/Visibility_of_what.pptx)
+Read here the [guest lecture slides](../documents/week-9/Visibility_of_what.pptx)

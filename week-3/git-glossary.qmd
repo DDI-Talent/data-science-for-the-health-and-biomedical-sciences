@@ -44,9 +44,9 @@ __Icons__
 In the Git pane, Rstudio indicated the current status of each file in your project.
 For now there are three states you need to be aware of:
 
--   ![Untracked](images/git-r/untracked.png) __Untracked__: A file on your system that Git has detected, but is not tracking Click to "add" it the Git database.
--   ![Added](images/git-r/added.png) __Added__: A file that Git has been tagged for commit. Once committed, Git will notice any future changes to it.
--   ![Modified](images/git-r/modified.png) __Modified__: a file that Git has been tracking, and has been changed since the last commit.
+-   ![Untracked](images/week03-topic07-rs-git-icon-untracked.png) __Untracked__: A file on your system that Git has detected, but is not tracking Click to "add" it the Git database.
+-   ![Added](images/week03-topic07-rs-git-icon-added.png) __Added__: A file that Git has been tagged for commit. Once committed, Git will notice any future changes to it.
+-   ![Modified](images/week03-topic07-rs-git-icon-modified.png) __Modified__: a file that Git has been tracking, and has been changed since the last commit.
 
 
 __Ignore__  
