@@ -1,24 +1,38 @@
 project:
   type: website
   output-dir: "_site"
+  post-render:
+    - python3 scripts/legacy-redirects.py
   resources:
-    - content/documents/**/*
+    - documents/**/*
     # Retained supporting sources with no website links.
-    - "!content/documents/week-2/phs_cancelled_tidy.Rda"
-    - "!content/documents/week-3/Be_fruitful_and_multiply.pdf"
-    - "!content/documents/week-4/Combined_example.Rmd"
+    - "!documents/week-2/phs_cancelled_tidy.Rda"
+    - "!documents/week-3/Be_fruitful_and_multiply.pdf"
+    - "!documents/week-4/Combined_example.Rmd"
     - "!tutorials/**"
     - "!scripts/**"
     - "!README.md"
   render:
     - index.qmd
-    - content/**/*.qmd
+    - weeks.qmd
+    - course-guide.qmd
+    - week-1/*.qmd
+    - week-2/*.qmd
+    - week-3/*.qmd
+    - week-4/*.qmd
+    - week-5/*.qmd
+    - week-6/*.qmd
+    - week-7/*.qmd
+    - week-8/*.qmd
+    - week-9/*.qmd
+    - week-10/*.qmd
+    - "!tutorials/**"
     - course-information/*.qmd
   preview:
     port: 5133
 
 execute:
-  freeze: auto
+  freeze: true
   eval: false
 
 website:
@@ -26,151 +40,172 @@ website:
   description: "The course aims to provide a broad introduction to data science in health and biomedical sciences, covering key concepts and principles, data analysis skills and implications of working with biomedical and healthcare data."
   site-url: "https://ddi-talent.github.io/data-science-for-the-health-and-biomedical-sciences/"
   favicon: "/favicon.png"
+  page-navigation: true
+  back-to-top-navigation: true
+  repo-url: "https://github.com/DDI-Talent/data-science-for-the-health-and-biomedical-sciences"
+  repo-actions: [edit, issue]
+  page-footer:
+    left: "The University of Edinburgh · Edinburgh Medical School"
+    right: "A living course notebook built with Quarto"
   navbar:
     pinned: true
-    background: "#2a405e"
+    background: "#041e42"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: course-guide.qmd
+        text: Course guide
+      - href: weeks.qmd
+        text: Weeks
+      - href: course-information/gen-ai-guidance.qmd
+        text: Gen AI guidance
     right:
-        - text: "Content"
-          file: content/index.qmd
-        - text: "Gen AI Guidance"
-          file: course-information/gen-ai-guidance.qmd
-        
-              
+      - icon: github
+        href: "https://github.com/DDI-Talent/data-science-for-the-health-and-biomedical-sciences"
+        aria-label: GitHub repository
+
   sidebar:
     - title: "Content"
       style: "docked"
-      search: false
-      background: dark
+      search: true
       collapse-level: 1
       contents:
-        - section: "Content"
-          contents:
-            - content/index.qmd
+        - text: Course home
+          href: index.qmd
+        - text: How to use this site
+          href: course-guide.qmd
+        - text: All weeks
+          href: weeks.qmd
         - section: "Week 1: Introduction"
           contents:
-            - content/week-1/index.qmd
+            - week-1/index.qmd
             - text: "Topic 1: Introduction to Health Data Science"
-              file: content/week-1/topic-1.qmd
+              file: week-1/topic-1.qmd
             - text: "Topic 2: The Role of Ethics in Health and Social Care"
-              file: content/week-1/topic-2.qmd
+              file: week-1/topic-2.qmd
             - text: "Topic 3: Getting started with R"
-              file: content/week-1/topic-3.qmd
+              file: week-1/topic-3.qmd
             - text: "Topic 4: Types of Health Data"
-              file: content/week-1/topic-4.qmd
+              file: week-1/topic-4.qmd
             - text: "Topic 5: Guide to R Markdown"
-              file: content/week-1/topic-5.qmd
+              file: week-1/topic-5.qmd
             - text: "Topic 6: Troubleshooting and Error Messages"
-              file: content/week-1/topic-6.qmd
+              file: week-1/topic-6.qmd
             - text: "Further Optional Resources"
-              file: content/week-1/further-resources.qmd
+              file: week-1/further-resources.qmd
               
         - section: "Week 2: Data Tidying and Wrangling"
           contents:
-            - content/week-2/index.qmd
+            - week-2/index.qmd
             - text: "Topic 1: The Tidyverse"
-              file: content/week-2/topic-1.qmd
+              file: week-2/topic-1.qmd
             - text: "Topic 2: Importing Data"
-              file: content/week-2/topic-2.qmd
+              file: week-2/topic-2.qmd
             - text: "Topic 3: Exploring Data"
-              file: content/week-2/topic-3.qmd
+              file: week-2/topic-3.qmd
             - text: "Topic 4: Ethical Dilemmas in Health Care Data"
-              file: content/week-2/topic-4.qmd
+              file: week-2/topic-4.qmd
             - text: "Topic 5: Files and Folders"
-              file: content/week-2/topic-5.qmd
+              file: week-2/topic-5.qmd
           
         - section: "Week 3: Data Visualisation and Storytelling"
           contents:
-            - content/week-3/index.qmd
+            - week-3/index.qmd
             - text: "Topic 1: Data Visualisation"
-              file: content/week-3/topic-1.qmd
+              file: week-3/topic-1.qmd
             - text: "Topic 2: Data visualisation aims"
-              file: content/week-3/topic-2.qmd
+              file: week-3/topic-2.qmd
             - text: "Topic 3: Data Storytelling"
-              file: content/week-3/topic-3.qmd
+              file: week-3/topic-3.qmd
             - text: "Topic 4: Plotting data with ggplot2"
-              file: content/week-3/topic-4.qmd
+              file: week-3/topic-4.qmd
             - text: "Topic 5: Going Further with R Markdown"
-              file: content/week-3/topic-5.qmd
+              file: week-3/topic-5.qmd
             - text: "Topic 6: More Wrangling and Plotting"
-              file: content/week-3/topic-6.qmd
+              file: week-3/topic-6.qmd
             - text: "Topic 7: Introduction to GitHub"
-              file: content/week-3/topic-7.qmd
+              file: week-3/topic-7.qmd
             
         - section: "Week 4: Analysing and Presenting Data in R"
           contents:
-            - content/week-4/index.qmd
+            - week-4/index.qmd
             - text: "Topic 1: Wrangling factors and joins"
-              file: content/week-4/topic-1.qmd
+              file: week-4/topic-1.qmd
             - text: "Topic 2: Fine-tuning plots"
-              file: content/week-4/topic-2.qmd
+              file: week-4/topic-2.qmd
             - text: "Topic 3: Roundup and recap"
-              file: content/week-4/topic-3.qmd
+              file: week-4/topic-3.qmd
             - text: "Optional: Data Engagements & Data Controversies"
-              file: content/week-4/data-engagements-and-controversies.qmd
+              file: week-4/data-engagements-and-controversies.qmd
               
         - section: "Week 5: Making Maps and Tables in R"
           contents:
-            - content/week-5/index.qmd
+            - week-5/index.qmd
             - text: "Topic 1: Introduction to Geospatial Data in R with sf and Tidyverse"
-              file: content/week-5/topic-1.qmd
+              file: week-5/topic-1.qmd
             - text: "Topic 2: Creating more exciting tables"
-              file: content/week-5/topic-2.qmd
+              file: week-5/topic-2.qmd
             - text: "Optional: Writing Functions in R"
-              file: content/week-5/writing-functions-in-R.qmd
+              file: week-5/writing-functions-in-R.qmd
               
         - section: "Week 6: Machine Learning & Analysing Clinical Text"
           contents:
-            - content/week-6/index.qmd
+            - week-6/index.qmd
             - text: "Topic 1: Machine Learning"
-              file: content/week-6/topic-1.qmd
+              file: week-6/topic-1.qmd
             - text: "Topic 2: Analysing Clinical Text"
-              file: content/week-6/topic-2.qmd
+              file: week-6/topic-2.qmd
             - text: "Topic 3: Embedding Ethics into Data Sharing"
-              file: content/week-6/topic-3.qmd
+              file: week-6/topic-3.qmd
               
         - section: "Week 7: Improving Healthcare Processes & Integrating Health Data"
           contents:
-            - content/week-7/index.qmd
+            - week-7/index.qmd
             - text: "Topic 1: Computational Methods for Improving Healthcare Processes"
-              file: content/week-7/topic-1.qmd
+              file: week-7/topic-1.qmd
             - text: "Topic 2: Integrating Health Data"
-              file: content/week-7/topic-2.qmd
+              file: week-7/topic-2.qmd
             - text: "Topic 3: Improving Healthcare Processes"
-              file: content/week-7/topic-3.qmd
+              file: week-7/topic-3.qmd
           
         - section: "Week 8: Data and Identity"
           contents:
-            - content/week-8/index.qmd
+            - week-8/index.qmd
             - text: "Data and Identity - readings"
-              file: content/week-8/readings.qmd
+              file: week-8/readings.qmd
             #- text: "Guest lecture slides" #removed for now, we might want them when up to date.
-            #  file: content/week-8/guest-lecture-slides.qmd
+            #  file: week-8/guest-lecture-slides.qmd
           
         - section: "Week 9: Data Ownership"
           contents:
-            - content/week-9/index.qmd
+            - week-9/index.qmd
             - text: "Reading: COVID and cause of death"
-              file: content/week-9/readings.qmd
+              file: week-9/readings.qmd
             #- text: "Visibility of What?" #Remove for now, we might want them when up to date.
-            #  file: content/week-9/visibility-of-what-slides.qmd
+            #  file: week-9/visibility-of-what-slides.qmd
            
         - section: "Week 10: Working with Genomic Data"
           contents:
-            - content/week-10/index.qmd
+            - week-10/index.qmd
             - text: "Topic 1: Genomic data: What is it and how to analyse it"
-              file: content/week-10/topic-1.qmd
+              file: week-10/topic-1.qmd
             - text: "Topic 2: Genotyping, sequencing, and profiling"
-              file: content/week-10/topic-2.qmd
+              file: week-10/topic-2.qmd
             - text: "Topic 3: Genome-wide association studies"
-              file: content/week-10/topic-3.qmd
+              file: week-10/topic-3.qmd
             - text: "Topic 4:GWAS Resources"
-              file: content/week-10/topic-4.qmd
+              file: week-10/topic-4.qmd
         
 format:
   html:
-    theme: 
-      - litera
-      - custom.scss
+    theme:
+      light: [cosmo, styles.scss]
+    toc-depth: 3
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    anchor-sections: true
     toc: true
     link-external-icon: true
     link-external-newwindow: true

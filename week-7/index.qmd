@@ -1,0 +1,36 @@
+---
+title: "Overview"
+format: html
+---
+
+<nav class="week-topics" aria-label="Week 7 topics">
+<h2>Explore this week</h2>
+<p>Choose a topic or resource to open its page.</p>
+<div class="week-topic-links">
+<a class="week-topic-link" href="topic-1.html"><span>Topic 1: Computational Methods for Improving Healthcare Processes</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-2.html"><span>Topic 2: Integrating Health Data</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-3.html"><span>Topic 3: Improving Healthcare Processes</span><span aria-hidden="true">→</span></a>
+</div>
+</nav>
+
+
+This week you will be introduced to process modelling methods and you will learn about the RDF approach to integrating healthcare data.
+
+## Learning Outcomes
+
+**By the end of the week you will be able to:**
+
+1.  Explain visual representations of healthcare processes, including BPMN and PROforma
+
+2.  Discuss computational methods for analysing and discovering processes based on existing data
+
+3.  Describe data captured in the RDF data model and discuss the advantages that it brings to merging biomedical datasets
+
+4.  Argue about the value that ontologies bring in the precision medicine era
+
+## Structure of this week's materials
+
+1.  Computational Methods for Improving Healthcare Processes: 1 reading, 4 videos
+2.  Integrating Health Data: 1 reading, 4 videos
+
+------------------------------------------------------------------------

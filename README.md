@@ -6,7 +6,10 @@ This repository holds the reusable Quarto course website and a separate tutorial
 
 | Folder | Purpose and audit decision |
 | --- | --- |
-| `content/` | Weekly lesson sources, images and downloads. Identical standalone ZIPs and CSVs were consolidated and lesson links updated. |
+| `week-1/`–`week-10/` | Each week has an `index.qmd` overview, its existing topic pages and local images. |
+| `documents/week-1/`–`week-10/` | Shared downloads, grouped by teaching week. |
+| `index.qmd`, `weeks.qmd`, `course-guide.qmd` | Course homepage, weekly navigation and site guide. |
+| `styles.scss` | Shared visual language with the REBM and RSHS course notebooks. |
 | `course-information/` | Reusable course guidance. Kept as source pages, including pages accessed through search rather than the sidebar. |
 | `images/` | Shared website imagery. Only the referenced course image remains. |
 | `tutorials/week-1/`–`week-10/` | Tutorial sources, exercises, solutions, slides and data. Preserved; redundant generated quiz HTML and its libraries were removed. |
@@ -56,3 +59,9 @@ The unused-asset audit also removed five unreferenced images, the superseded `Gu
 ## Reuse each year
 
 Keep academic years, dates, class times, teaching allocations, assessment deadlines and cohort repository links in Learn. The website points students there for current arrangements. Retain publication years in citations and years in example datasets.
+
+## Weekly structure and content preservation
+
+The numbered top-level week folders mirror the topic-based layout of REBM and RSHS. Weekly teaching content is preserved; migration changes only resource paths. Keep existing weekly filenames and store images alongside their pages. Tutorial development remains in the separate matching `tutorials/week-N/` folders and is excluded from publication. Frozen outputs follow the same top-level week paths.
+
+The post-render script preserves former `content/week-N/*.html` page addresses with redirects. The render list names every week explicitly to avoid accidentally matching tutorial folders. `freeze: true` preserves saved R results during website builds; refresh a lesson’s computations deliberately when changing its teaching content.

@@ -1,0 +1,36 @@
+---
+title: "Overview"
+format: html
+---
+
+<nav class="week-topics" aria-label="Week 4 topics">
+<h2>Explore this week</h2>
+<p>Choose a topic or resource to open its page.</p>
+<div class="week-topic-links">
+<a class="week-topic-link" href="topic-1.html"><span>Topic 1: Wrangling factors and joins</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-2.html"><span>Topic 2: Fine-tuning plots</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-3.html"><span>Topic 3: Roundup and recap</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="data-engagements-and-controversies.html"><span>Optional: Data Engagements &amp; Data Controversies</span><span aria-hidden="true">→</span></a>
+</div>
+</nav>
+
+
+This week we will be learning more about factors and joins, how to fine-tune our plots, and taking an overview of what an analysis project in R might look like Learning Outcomes
+
+## By the end of the week you will be able to:
+
+1.  Explain the difference between the data types factor and character
+
+2.  Join two datasets together using various joins
+
+3.  Carry out fine-tuning of your plots using functions in ggplot2
+
+4.  Demonstrate the steps required to start analysing and reporting on your own data
+
+## **Structure of this week's materials**
+
+1.  Wrangling factors and joins: 1 reading with code samples
+
+2.  Fine-tuning plots: 1 reading, 1 practice
+
+3.  Roundup and recap: 1 reading with code samples

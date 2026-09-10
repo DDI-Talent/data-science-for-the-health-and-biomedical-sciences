@@ -1,0 +1,21 @@
+---
+title: "Overview"
+format: html
+---
+
+<nav class="week-topics" aria-label="Week 9 topics">
+<h2>Explore this week</h2>
+<p>Choose a topic or resource to open its page.</p>
+<div class="week-topic-links">
+<a class="week-topic-link" href="readings.html"><span>Reading: COVID and cause of death</span><span aria-hidden="true">→</span></a>
+</div>
+</nav>
+
+
+This week we will delve into more societal issues around the gathering and analysis of health data. Our guest speaker is [Max Perry](https://www.sps.ed.ac.uk/staff/max-edward-perry).
+
+## Structure of this week
+
+1.  Guest lecture, followed by a Q&A
+
+[Dr Perry's slides (PDF)](https://uoe-my.sharepoint.com/:b:/g/personal/kbanas2_ed_ac_uk/EcmSLNMMEoZBsY7Y4-yQhJ4BYtsTaUqZ0_kszz6cbZA8HA?e=9D0ti3)

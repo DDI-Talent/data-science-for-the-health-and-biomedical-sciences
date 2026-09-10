@@ -1,0 +1,28 @@
+---
+title: "Overview"
+format: html
+---
+
+<nav class="week-topics" aria-label="Week 10 topics">
+<h2>Explore this week</h2>
+<p>Choose a topic or resource to open its page.</p>
+<div class="week-topic-links">
+<a class="week-topic-link" href="topic-1.html"><span>Topic 1: Genomic data: What is it and how to analyse it</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-2.html"><span>Topic 2: Genotyping, sequencing, and profiling</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-3.html"><span>Topic 3: Genome-wide association studies</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-4.html"><span>Topic 4: GWAS Resources</span><span aria-hidden="true">→</span></a>
+</div>
+</nav>
+
+
+For the final week of the course, we will look at an application of data science within genomics. Namely we will look towards gaining an understanding of the topic of genome wide association studies (GWAS).
+
+## **Learning outcomes**
+
+-   Understand how genomic data is collected and processed
+
+-   Learn what methods are used to analyse genomic data
+
+-   Conduct a small portion of a genome-wide association study (GWAS)
+
+-   Understand the format of GWAS summary statistics and where to obtain them

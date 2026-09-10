@@ -1,0 +1,20 @@
+---
+title: "Course guide"
+---
+
+## How to use this site
+
+This notebook brings together the readings, videos and exercises for Data Science for Health and Biomedical Sciences (BIME10076).
+
+1. **Start with the weekly overview.** Check the learning outcomes and the structure of the week's materials.
+2. **Work through the topics.** Use the sidebar to find each reading, video and exercise.
+3. **Practise as you go.** Follow the R examples and attempt the exercises provided in the weekly pages.
+4. **Return when you need a reference.** Use search to find a concept, or [browse all ten weeks](weeks.qmd).
+
+## Course arrangements
+
+Consult the course area on Learn for current timetables, assessment information and announcements.
+
+## Using generative AI
+
+Read the [Gen AI guidance](course-information/gen-ai-guidance.qmd) for advice on supporting your learning.

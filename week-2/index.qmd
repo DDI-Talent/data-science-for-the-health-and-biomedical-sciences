@@ -1,0 +1,41 @@
+---
+title: "Overview"
+format: html
+---
+
+<nav class="week-topics" aria-label="Week 2 topics">
+<h2>Explore this week</h2>
+<p>Choose a topic or resource to open its page.</p>
+<div class="week-topic-links">
+<a class="week-topic-link" href="topic-1.html"><span>Topic 1: The Tidyverse</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-2.html"><span>Topic 2: Importing Data</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-3.html"><span>Topic 3: Exploring Data</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-4.html"><span>Topic 4: Ethical Dilemmas in Health Care Data</span><span aria-hidden="true">→</span></a>
+<a class="week-topic-link" href="topic-5.html"><span>Topic 5: Files and Folders</span><span aria-hidden="true">→</span></a>
+</div>
+</nav>
+
+
+Welcome to Week 2 of the course! This week we will delve into working with data in R, from importing data to tidying and wrangling.
+
+## Learning Outcomes
+
+**By the end of the week you will be able to:**
+
+1.  Get an overview of the main data science tools in R: how to import, tidy, transform, visualise, model, and communicate data
+
+2.  Learn how to organise your data projects, including structuring files and folders in a reproducible and consistent way
+
+3.  Identify and reflect on ethical issues that can arise when working with health and care data
+
+#### **Structure of this week's materials**
+
+1.  The Tidyverse:
+
+2.  Importing Data: 2 videos, 1 practise, 1 test your knowledge
+
+3.  Exploring Data: 2 videos, 1 test your knowledge
+
+4.  Ethical Dilemmas in Health Care Data:
+
+5.  Files and Folders:

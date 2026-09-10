@@ -24,9 +24,9 @@ for path in site.rglob('*'):
             errors.append(f'Cohort-specific content: {relative}')
 # These are retained as supporting source files, not published downloads.
 for resource in (
-    'content/documents/week-2/phs_cancelled_tidy.Rda',
-    'content/documents/week-3/Be_fruitful_and_multiply.pdf',
-    'content/documents/week-4/Combined_example.Rmd',
+    'documents/week-2/phs_cancelled_tidy.Rda',
+    'documents/week-3/Be_fruitful_and_multiply.pdf',
+    'documents/week-4/Combined_example.Rmd',
 ):
     if (site / resource).exists():
         errors.append(f'Unlinked supporting source published: {resource}')
