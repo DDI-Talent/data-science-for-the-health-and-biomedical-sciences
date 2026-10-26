@@ -4,18 +4,19 @@ format: html
 ---
 
 <nav class="week-topics" aria-label="Week 8 topics">
+
 <h2>Explore this week</h2>
+
 <p>Choose a topic or resource to open its page.</p>
-<div class="week-topic-links">
-<a class="week-topic-link" href="readings.html"><span>Data and Identity - readings</span><span aria-hidden="true">→</span></a>
-</div>
+
+::: week-topic-links
+<a class="week-topic-link" href="readings.html">AI in Health and Medicine[→]{aria-hidden="true"}</a>
+:::
+
 </nav>
 
-
-This week's topic has been curated by [Dr Kevin Guyan](https://www.business-school.ed.ac.uk/staff/kevin-kevin-guyan), a Chancellor's Fellow at the University of Edinburgh Business School.
+This week's topic has been curated by Dr Ahmar Shah, a Chancellor's Fellow, Senior Research Fellow, and Director of Innovation at the Centre for Medical Informatics.
 
 ## Structure of this week
 
 1.  Guest lecture, followed by a Q&A
-
-[Dr Guyan's slides (PDF)](/documents/week-8/Data%20and%20Identity%20-%20Guyan.pdf)
