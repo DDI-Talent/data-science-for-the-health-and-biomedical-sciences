@@ -15,7 +15,7 @@ format: html
 
 </nav>
 
-This week's topic has been curated by Dr Ahmar Shah, a Chancellor's Fellow, Senior Research Fellow, and Director of Innovation at the Centre for Medical Informatics.
+This week's topic has been curated by Dr Ahmar Shah, a Chancellor's Fellow, Senior Research Fellow, and Director of Innovation at the Centre for Medical Informatics of the University of Edinburgh.
 
 ## Structure of this week
 

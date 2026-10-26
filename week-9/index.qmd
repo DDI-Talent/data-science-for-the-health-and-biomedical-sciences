@@ -4,18 +4,20 @@ format: html
 ---
 
 <nav class="week-topics" aria-label="Week 9 topics">
+
 <h2>Explore this week</h2>
+
 <p>Choose a topic or resource to open its page.</p>
-<div class="week-topic-links">
-<a class="week-topic-link" href="readings.html"><span>Reading: COVID and cause of death</span><span aria-hidden="true">→</span></a>
-</div>
+
+::: week-topic-links
+<a class="week-topic-link" href="readings.html">Reading: COVID and cause of death[→]{aria-hidden="true"}</a>
+:::
+
 </nav>
 
-
-This week we will delve into more societal issues around the gathering and analysis of health data. Our guest speaker is [Max Perry](https://www.sps.ed.ac.uk/staff/max-edward-perry).
+This week we will delve into more societal issues around the gathering and analysis of health data, with our guest speaker, Dr. [Max Perry](https://www.sps.ed.ac.uk/staff/max-edward-perry). Additionally, we will have Dr. Suzanne Goopy, brining to the table some ethical issues and concerns in health and biomedical contexts.
 
 ## Structure of this week
 
-1.  Guest lecture, followed by a Q&A
-
-[Dr Perry's slides (PDF)](https://uoe-my.sharepoint.com/:b:/g/personal/kbanas2_ed_ac_uk/EcmSLNMMEoZBsY7Y4-yQhJ4BYtsTaUqZ0_kszz6cbZA8HA?e=9D0ti3)
+1.  Thursday the 19th of November: Guest lecture, followed by a Q&A
+2.  Friday the 20th of November: Guest lecture, followed by a Q&A
