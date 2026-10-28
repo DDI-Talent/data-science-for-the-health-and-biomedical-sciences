@@ -5,43 +5,35 @@ toc: false
 page-layout: full
 ---
 
-::: {.hero}
-<div class="eyebrow">BIME10076 · A living course notebook</div>
+::: hero
+::: eyebrow
+BIME10076 · A living course notebook
+:::
 
 # Make sense of health data.
 
 Build the foundations to work with biomedical and healthcare data: develop practical R skills, communicate findings and consider the people behind the data.
 
-<div class="hero-actions">
-  <a href="week-1/index.html">Start with Week 1</a>
-  <a class="secondary" href="course-guide.html">Use the course guide</a>
-  <a class="secondary" href="weeks.html">Explore all weeks</a>
-</div>
+::: hero-actions
+<a href="week-1/index.html">Start with Week 1</a> <a class="secondary" href="course-guide.html">Use the course guide</a> <a class="secondary" href="weeks.html">Explore all weeks</a>
+:::
 :::
 
 ## Data skills for health and biomedical sciences
 
 Data science is revolutionising how medicine is understood, how biomedical research is conducted and how healthcare is delivered. This course equips honours students with the foundations and data skills needed for data-driven innovation.
 
-::: {.semester-heading}
+::: semester-heading
 ## Your ten-week pathway
-<span>From first steps in R to working with health and genomic data</span>
+
+From first steps in R to working with health and genomic data
 :::
 
-<div class="topic-grid">
-<a class="topic-card" href="week-1/index.html"><span class="number">WEEK 01</span><span class="topic-title">Introduction</span><span class="topic-description">Explore health data science, ethics, R and R Markdown.</span></a>
-<a class="topic-card" href="week-2/index.html"><span class="number">WEEK 02</span><span class="topic-title">Data Tidying and Wrangling</span><span class="topic-description">Import, explore and prepare data with the tidyverse.</span></a>
-<a class="topic-card" href="week-3/index.html"><span class="number">WEEK 03</span><span class="topic-title">Data Visualisation and Storytelling</span><span class="topic-description">Communicate data through visualisation, storytelling and ggplot2.</span></a>
-<a class="topic-card" href="week-4/index.html"><span class="number">WEEK 04</span><span class="topic-title">Analysing and Presenting Data in R</span><span class="topic-description">Work with factors and joins, refine plots and bring your skills together.</span></a>
-<a class="topic-card" href="week-5/index.html"><span class="number">WEEK 05</span><span class="topic-title">Making Maps and Tables in R</span><span class="topic-description">Explore geospatial data, create tables and practise writing functions.</span></a>
-<a class="topic-card" href="week-6/index.html"><span class="number">WEEK 06</span><span class="topic-title">Machine Learning & Analysing Clinical Text</span><span class="topic-description">Explore machine learning, clinical text and ethical data sharing.</span></a>
-<a class="topic-card" href="week-7/index.html"><span class="number">WEEK 07</span><span class="topic-title">Improving Healthcare Processes & Integrating Health Data</span><span class="topic-description">Examine computational approaches to healthcare processes and connected data.</span></a>
-<a class="topic-card" href="week-8/index.html"><span class="number">WEEK 08</span><span class="topic-title">Data and Identity</span><span class="topic-description">Explore how data represents people and shapes identity.</span></a>
-<a class="topic-card" href="week-9/index.html"><span class="number">WEEK 09</span><span class="topic-title">Data Ownership</span><span class="topic-description">Consider ownership and interpretation of health data.</span></a>
-<a class="topic-card" href="week-10/index.html"><span class="number">WEEK 10</span><span class="topic-title">Working with Genomic Data</span><span class="topic-description">Explore genomic data, sequencing and genome-wide association studies.</span></a>
-</div>
+::: topic-grid
+<a class="topic-card" href="week-1/index.html">[WEEK 01]{.number}[Introduction]{.topic-title}[Explore health data science, ethics, R and R Markdown.]{.topic-description}</a> <a class="topic-card" href="week-2/index.html">[WEEK 02]{.number}[Data Tidying and Wrangling]{.topic-title}[Import, explore and prepare data with the tidyverse.]{.topic-description}</a> <a class="topic-card" href="week-3/index.html">[WEEK 03]{.number}[Data Visualisation and Storytelling]{.topic-title}[Communicate data through visualisation, storytelling and ggplot2.]{.topic-description}</a> <a class="topic-card" href="week-4/index.html">[WEEK 04]{.number}[Analysing and Presenting Data in R]{.topic-title}[Work with factors and joins, refine plots and bring your skills together.]{.topic-description}</a> <a class="topic-card" href="week-5/index.html">[WEEK 05]{.number}[Making Maps and Tables in R]{.topic-title}[Explore geospatial data, create tables and practise writing functions.]{.topic-description}</a> <a class="topic-card" href="week-6/index.html">[WEEK 06]{.number}[Machine Learning & Analysing Clinical Text]{.topic-title}[Explore machine learning, clinical text and ethical data sharing.]{.topic-description}</a> <a class="topic-card" href="week-7/index.html">[WEEK 07]{.number}[Improving Healthcare Processes & Integrating Health Data]{.topic-title}[Examine computational approaches to healthcare processes and connected data.]{.topic-description}</a> <a class="topic-card" href="week-8/index.html">WEEK 08 AI in Health and Medicine[.]{.topic-description}</a> <a class="topic-card" href="week-9/index.html">[WEEK 09]{.number}[Data Ownership]{.topic-title}[Consider ownership and interpretation of health data.]{.topic-description}</a> <a class="topic-card" href="week-10/index.html">[WEEK 10]{.number}[Working with Genomic Data]{.topic-title}[Explore genomic data, sequencing and genome-wide association studies.]{.topic-description}</a>
+:::
 
-::: {.callout-note}
+::: callout-note
 ## Current course arrangements
 
 Use the course area on Learn for the timetable, assessment information and announcements.

@@ -1,6 +1,7 @@
 ---
 title: "Overview"
 format: html
+engine: knitr
 ---
 
 <nav class="week-topics" aria-label="Week 8 topics">

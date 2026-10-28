@@ -7,8 +7,8 @@ format: html
 
 Pranav Rajpurkar, Emma Chen, Oishi Banerjee, and Eric J Topol. *AI in health and medicine.* Nature Medicine, 2022. 28, 31-38. 
 
-[AI in Health and Medicine (PDF)]("C:\Users\evidela\Documents\git_repos\data-science-for-the-health-and-biomedical-sciences\documents\week-8\AI in Health and Medicine_ReviewPaper.pdf")
+[AI in Health and Medicine (PDF)](%22C:\Users\evidela\Documents\git_repos\data-science-for-the-health-and-biomedical-sciences\documents\week-8\AI%20in%20Health%20and%20Medicine_ReviewPaper.pdf%22)
 
 Syed Ahmar Shah, Carmelo Velardo, Andrew Farmer, and Lionel Tarassenko. *Exacerbations in Chronic Obstructive Pulmonary Disease: Identification and Prediction Using a Digital Health System.* Journal of Medical Internet Research, 2017. 19:e69.
 
-[Exacerbations in COPD]("C:\Users\evidela\Documents\git_repos\data-science-for-the-health-and-biomedical-sciences\documents\week-8\Exacerbations in COPD_CaseStudy.pdf")
+[Exacerbations in COPD](%22C:\Users\evidela\Documents\git_repos\data-science-for-the-health-and-biomedical-sciences\documents\week-8\Exacerbations%20in%20COPD_CaseStudy.pdf%22)
