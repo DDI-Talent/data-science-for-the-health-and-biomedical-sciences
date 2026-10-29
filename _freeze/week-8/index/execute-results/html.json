@@ -1,0 +1,17 @@
+{
+  "hash": "57774616660eaff9385fa96807037ae1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Overview\"\nformat: html\nengine: knitr\n---\n\n<nav class=\"week-topics\" aria-label=\"Week 8 topics\">\n\n<h2>Explore this week</h2>\n\n<p>Choose a topic or resource to open its page.</p>\n\n::: week-topic-links\n<a class=\"week-topic-link\" href=\"readings.html\">AI in Health and Medicine[→]{aria-hidden=\"true\"}</a>\n:::\n\n</nav>\n\nThis week's topic has been curated by Dr Ahmar Shah, a Chancellor's Fellow, Senior Research Fellow, and Director of Innovation at the Centre for Medical Informatics of the University of Edinburgh.\n\n## Structure of this week\n\n1.  Guest lecture, followed by a Q&A\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
