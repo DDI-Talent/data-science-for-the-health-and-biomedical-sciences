@@ -169,10 +169,10 @@ website:
             - text: "Topic 3: Improving Healthcare Processes"
               file: week-7/topic-3.qmd
           
-        - section: "Week 8: Data and Identity"
+        - section: "Week 8: AI in Health and Medicine"
           contents:
             - week-8/index.qmd
-            - text: "Data and Identity - readings"
+            - text: "AI in Health and Medicine - readings"
               file: week-8/readings.qmd
             #- text: "Guest lecture slides" #removed for now, we might want them when up to date.
             #  file: week-8/guest-lecture-slides.qmd
