@@ -175,7 +175,7 @@ website:
             - text: "AI in Health and Medicine - readings"
               file: week-8/readings.qmd
             #- text: "Guest lecture slides" #removed for now, we might want them when up to date.
-            #  file: week-8/guest-lecture-slides.qmd
+            #  file: week-8/guest-lecture-slides.qmd #
           
         - section: "Week 9: Data Ownership"
           contents:

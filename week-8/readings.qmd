@@ -11,4 +11,4 @@ Pranav Rajpurkar, Emma Chen, Oishi Banerjee, and Eric J Topol. *AI in health and
 
 Syed Ahmar Shah, Carmelo Velardo, Andrew Farmer, and Lionel Tarassenko. *Exacerbations in Chronic Obstructive Pulmonary Disease: Identification and Prediction Using a Digital Health System.* Journal of Medical Internet Research, 2017. 19:e69.
 
-[Exacerbations in COPD](/documents/week-8/Exacerbations_in_COPD_CaseStudypdf)
+[Exacerbations in COPD](/documents/week-8/Exacerbations_in_COPD_CaseStudy.pdf)
