@@ -1090,7 +1090,7 @@
     "href": "weeks.html",
     "title": "Readings, videos, and exercises",
     "section": "",
-    "text": "Explore readings, videos and self-guided exercises across ten weeks of health and biomedical data science. Select a week to open its overview, then use the sidebar to move between its topics.\nFor current course arrangements, assessment information and announcements, consult the course area on Learn.\n\nWEEK 01IntroductionExplore health data science, ethics, R and R Markdown. WEEK 02Data Tidying and WranglingImport, explore and prepare data with the tidyverse. WEEK 03Data Visualisation and StorytellingCommunicate data through visualisation, storytelling and ggplot2. WEEK 04Analysing and Presenting Data in RWork with factors and joins, refine plots and bring your skills together. WEEK 05Making Maps and Tables in RExplore geospatial data, create tables and practise writing functions. WEEK 06Machine Learning & Analysing Clinical TextExplore machine learning, clinical text and ethical data sharing. WEEK 07Improving Healthcare Processes & Integrating Health DataExamine computational approaches to healthcare processes and connected data. WEEK 08 AI in Health and Medicine. WEEK 09Data OwnershipConsider ownership and interpretation of health data. WEEK 10Working with Genomic DataExplore genomic data, sequencing and genome-wide association studies.\n\n\n\n\n Back to top",
+    "text": "Explore readings, videos and self-guided exercises across ten weeks of health and biomedical data science. Select a week to open its overview, then use the sidebar to move between its topics.\nFor current course arrangements, assessment information and announcements, consult the course area on Learn.\n\nWEEK 01IntroductionExplore health data science, ethics, R and R Markdown. WEEK 02Data Tidying and WranglingImport, explore and prepare data with the tidyverse. WEEK 03Data Visualisation and StorytellingCommunicate data through visualisation, storytelling and ggplot2. WEEK 04Analysing and Presenting Data in RWork with factors and joins, refine plots and bring your skills together. WEEK 05Making Maps and Tables in RExplore geospatial data, create tables and practise writing functions. WEEK 06Machine Learning & Analysing Clinical TextExplore machine learning, clinical text and ethical data sharing. WEEK 07Improving Healthcare Processes & Integrating Health DataExamine computational approaches to healthcare processes and connected data. WEEK 08AI in Health and MedicineExplore advances in Artificial Intelligence in the context of Health and Medicine. WEEK 09Data OwnershipConsider ownership and interpretation of health data. WEEK 10Working with Genomic DataExplore genomic data, sequencing and genome-wide association studies.\n\n\n\n\n Back to top",
     "crumbs": [
       "Home",
       "All weeks"
@@ -2079,7 +2079,7 @@
     "crumbs": [
       "Home",
       "Week 8: AI in Health and Medicine",
-      "AI in Health and Medicine - readings"
+      "Reading: AI in Health and Medicine"
     ]
   },
   {
