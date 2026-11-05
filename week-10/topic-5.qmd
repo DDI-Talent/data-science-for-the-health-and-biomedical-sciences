@@ -3,6 +3,8 @@ title: "Part 2: Ethics and governance for digital disease surveillance"
 format: html
 ---
 
+This week's topic has been curated by Dr. Kasia Banas, Undergraduate Talent Lead and Programme Director at the College of Medicine and Veterinary Medicine.
+
 [Required Readings]{.underline}
 
 Chapter 2 - An ethical framework. *Public Health: ethical issues.* Nuffield Council on Bioethics. November 2007. pp 11-28.
