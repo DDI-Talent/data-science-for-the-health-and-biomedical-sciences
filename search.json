@@ -159,7 +159,7 @@
     "href": "week-10/index.html",
     "title": "Overview",
     "section": "",
-    "text": "Choose a topic or resource to open its page.\n\n\nTopic 1: Genomic data: What is it and how to analyse it→ Topic 2: Genotyping, sequencing, and profiling→ Topic 3: Genome-wide association studies→ Topic 4: GWAS Resources→\nFor the final week of the course, we will look at an application of data science within genomics. Namely we will look towards gaining an understanding of the topic of genome wide association studies (GWAS).",
+    "text": "Choose a topic or resource to open its page.\n\n\nTopic 1: Genomic data: What is it and how to analyse it→ Topic 2: Genotyping, sequencing, and profiling→ Topic 3: Genome-wide association studies→ Topic 4: GWAS Resources→ Part 2: Ethics and governance for digital disease surveillance→\nFor the final week of the course, we will look at an application of data science within genomics. Namely we will look towards gaining an understanding of the topic of genome wide association studies (GWAS).",
     "crumbs": [
       "Home",
       "Week 10: Working with Genomic Data",
@@ -2255,7 +2255,7 @@
     "href": "week-10/topic-5.html",
     "title": "Part 2: Ethics and governance for digital disease surveillance",
     "section": "",
-    "text": "Required Readings\nChapter 2 - An ethical framework. Public Health: ethical issues. Nuffield Council on Bioethics. November 2007. pp 11-28.\nChapter 2 - An ethical framework (PDF)\nGuide to the ethics of surveillance and quarantine for novel coronavirus\n\n\n\n Back to top",
+    "text": "This week’s topic has been curated by Dr. Kasia Banas, Undergraduate Talent Lead and Programme Director at the College of Medicine and Veterinary Medicine.\nRequired Readings\nChapter 2 - An ethical framework. Public Health: ethical issues. Nuffield Council on Bioethics. November 2007. pp 11-28.\nChapter 2 - An ethical framework (PDF)\nGuide to the ethics of surveillance and quarantine for novel coronavirus\n\n\n\n Back to top",
     "crumbs": [
       "Home",
       "Week 10: Working with Genomic Data",
