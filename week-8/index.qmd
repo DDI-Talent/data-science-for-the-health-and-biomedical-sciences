@@ -11,7 +11,7 @@ engine: knitr
 <p>Choose a topic or resource to open its page.</p>
 
 ::: week-topic-links
-<a class="week-topic-link" href="readings.html">AI in Health and Medicine[→]{aria-hidden="true"}</a> <a class="week-topic-link" href="readings-friday.html">Part 1: Ethics and governance for digital disease surveillance[→]{aria-hidden="true"}</a> 
+<a class="week-topic-link" href="readings.html">AI in Health and Medicine[→]{aria-hidden="true"}</a> <a class="week-topic-link" href="topic-5.html">Part 1: Ethics and governance for digital disease surveillance[→]{aria-hidden="true"}</a>
 :::
 
 </nav>
@@ -20,5 +20,5 @@ This week's topic has been curated by Dr Ahmar Shah, a Chancellor's Fellow, Seni
 
 ## Structure of this week
 
-1.  Thursday: Guest lecture, followed by a Q&A
-2.  Friday: Guest lecture, followed by a Q&A
+1. Thursday: Guest lecture, followed by a Q&A
+2. Friday: Guest lecture, followed by a Q&A
