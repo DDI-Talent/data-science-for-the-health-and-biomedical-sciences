@@ -5,7 +5,7 @@ format: html
 
 [Required Readings]{.underline}
 
-Michelle M. Mello and C. Jason Wang. *Ethics and governance fordigital disease surveillance.* Science, 2020. 368, 951-954.
+Michelle M. Mello and C. Jason Wang. *Ethics and governance for digital disease surveillance.* Science, 2020. 368, 951-954.
 
 [Ethics and governance fordigital disease surveillance (PDF)](/documents/week-8/Ethics_and_Governance_for_digital_disease_surveillance.pdf)
 

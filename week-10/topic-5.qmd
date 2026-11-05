@@ -5,8 +5,8 @@ format: html
 
 [Required Readings]{.underline}
 
-*Public Health: ethical issues.* Chapter 2 - An ethical framework. Nuffield Council on Bioethics. November 2007. pp 11-28.
+Chapter 2 - An ethical framework. *Public Health: ethical issues.* Nuffield Council on Bioethics. November 2007. pp 11-28.
 
-[Chapter 2 - An ethical framework (PDF)](/documents/week-8/Public-health-ethical-issues.pdf)
+[Chapter 2 - An ethical framework (PDF)](/documents/week-10/Public-health-ethical-issues.pdf)
 
 [Guide to the ethics of surveillance and quarantine for novel coronavirus](https://www.nuffieldbioethics.org/news-blog/guide-to-the-ethics-of-surveillance-and-quarantine-for-novel-coronavirus/)
