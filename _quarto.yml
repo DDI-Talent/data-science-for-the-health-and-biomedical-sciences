@@ -169,11 +169,13 @@ website:
             - text: "Topic 3: Improving Healthcare Processes"
               file: week-7/topic-3.qmd
           
-        - section: "Week 8: AI in Health and Medicine"
+        - section: "Week 8: AI in Health and Medicine and Ethics and governance for digital disease surveillance"
           contents:
             - week-8/index.qmd
             - text: "Reading: AI in Health and Medicine"
               file: week-8/readings.qmd
+            - text: "Part 1- Ethics and governance for digital disease surveillance"
+              file: week-8/readings-friday.qmd
             #- text: "Guest lecture slides" #removed for now, we might want them when up to date.
             #  file: week-8/guest-lecture-slides.qmd 
           
@@ -196,7 +198,8 @@ website:
               file: week-10/topic-3.qmd
             - text: "Topic 4:GWAS Resources"
               file: week-10/topic-4.qmd
-        
+            - text: "Part II:  Ethics and governance for digital disease surveillance"
+              file: week-10/topic-5.qmd
 format:
   html:
     theme:
