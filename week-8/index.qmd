@@ -20,5 +20,5 @@ This week's topic has been curated by Dr Ahmar Shah, a Chancellor's Fellow, Seni
 
 ## Structure of this week
 
-1.  Thursday: Guest lecture, followed by a Q&A
+1.  Thursday: Guest lecture, followed by a Q&A [AI in Health and Medicine (slides)](/documents/week-8/AI-in-medicine-GuestLecture-Nov2026.pdf)
 2.  Friday: Guest lecture, followed by a Q&A
