@@ -10,7 +10,7 @@ format: html
 <p>Choose a topic or resource to open its page.</p>
 
 ::: week-topic-links
-<a class="week-topic-link" href="readings.html">Reading: COVID and cause of death[→]{aria-hidden="true"}</a>
+<a class="week-topic-link" href="readings.html">Reading: COVID and cause of death[→]{aria-hidden="true"}</a> <a class="week-topic-link" href="readings-friday.html">Reading: COVID and cause of death[→]{aria-hidden="true"}</a>
 :::
 
 </nav>

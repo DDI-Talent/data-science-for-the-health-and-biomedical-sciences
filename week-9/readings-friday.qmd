@@ -1,0 +1,10 @@
+---
+title: "Data and ethics"
+format: html
+---
+
+Required pre-reading for the session on the 20th of November will be:
+
+**L. Marryat et al.**. *“If it’s gonnae make things better then I don’t have any issue”: Perspectives ofPeople Who Use Drugs on the Use of Routinely-Collected Data for Research*. International Journal of Population Data Science, 2026 11(1).
+
+[“If it’s gonnae make things better then I don’t have any issue”: Perspectives of People Who Use Drugs on the Use of Routinely-Collected Data for Research (PDF)](/documents/week-9/Marryat_2026.pdf)
