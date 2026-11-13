@@ -184,6 +184,8 @@ website:
             - week-9/index.qmd
             - text: "Reading: COVID and cause of death"
               file: week-9/readings.qmd
+            - text: "Data and ethics"
+              file: week-9/readings-friday.qmd
             #- text: "Visibility of What?" #Remove for now, we might want them when up to date.
             #  file: week-9/visibility-of-what-slides.qmd
            
