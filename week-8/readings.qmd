@@ -13,5 +13,4 @@ Syed Ahmar Shah, Carmelo Velardo, Andrew Farmer, and Lionel Tarassenko. *Exacerb
 
 [Exacerbations in COPD](/documents/week-8/Exacerbations_in_COPD_CaseStudy.pdf)
 
-[Slides]{.underline}
-[AI in Health and Medicine (slides)](/documents/week-8/AI-in-medicine-GuestLecture-Nov2026.pdf)
+[Slides]{.underline} [AI in Health and Medicine (slides)](/documents/week-8/AI-in-medicine-GuestLecture-Nov2026.pdf)
