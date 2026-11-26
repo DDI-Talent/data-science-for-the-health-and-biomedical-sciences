@@ -20,4 +20,4 @@ This week we will delve into more societal issues around the gathering and analy
 ## Structure of this week
 
 1.  Thursday the 19th of November: Guest lecture, followed by a Q&A
-2.  Friday the 20th of November: Guest lecture, followed by a Q&A
+2.  Friday the 20th of November: Guest lecture, followed by a Q&A [Ethical thinking when working with health data (slides)](/documents/week-9/Ethical-thinking-when-working-with-health-data.pdf)
